@@ -35,7 +35,7 @@ webapp:
       pullPolicy: "Always"
       repository: "ghcr.io/cosmo-tech/azure-sample-webapp/webapp-functions"
       # Update this tag with each release --> https://github.com/Cosmo-Tech/azure-sample-webapp/pkgs/container/azure-sample-webapp%2Fwebapp-server/674832208?tag=v7.0.0-rc1-vanilla
-      tag: v7.0.1-vanilla
+      tag: v7.0.2-vanilla
     # Tolerations for hybrid deployment (cloud + on-premises):
     # On on-premises nodes, add a taint `vendor=tech:NoSchedule`
     tolerations:
@@ -51,7 +51,7 @@ webapp:
       pullPolicy: Always
       repository: "ghcr.io/cosmo-tech/azure-sample-webapp/webapp-server"
       # Update this tag with each release --> https://github.com/Cosmo-Tech/azure-sample-webapp/pkgs/container/azure-sample-webapp%2Fwebapp-server/674832208?tag=v7.0.0-rc1-vanilla
-      tag: v7.0.1-vanilla
+      tag: v7.0.2-vanilla
     tolerations:
     - key: "vendor"
       operator: "Equal"
